@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to dubai",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laudantium culpa dolorum asperiores sunt deserunt sint, ipsum facilis exercitationem consequatur in nam quisquam.",
+      "tags": ["css", "webdev", "news"]
+    },
+    {
+      "id": 2,
+      "title": "Welcome to Nigeria",
+      "body": "Loke Loke Baba Adeleke",
+      "tags": ["css", "codes", "news"]
+    }
+  ]
+}

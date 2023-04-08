@@ -1,0 +1,7 @@
+{
+  "jobs": [
+    { "title": "Web Development", "id": 1, "details": "Lorem" },
+    { "title": "Web React Development", "id": 2, "details": "Lorem" },
+    { "title": "Web Vue Developer", "id": 3, "details": "Lorem" }
+  ]
+}
