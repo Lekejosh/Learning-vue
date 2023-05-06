@@ -1,6 +1,6 @@
 //Composition API
 
-<script setup>
+<!-- <script setup>
 import { ref } from 'vue'
 
 // const count = ref(0)
@@ -14,8 +14,26 @@ const addToCount = () => {
 const subtractFromCount = () => {
   count.value = count.value - 1
 }
-</script>
+</script> -->
 
+//Options API
+<script>
+export default ({
+  data() {
+    return {
+      count: 0
+    }
+  },
+  methods: {
+    addToCount() {
+      this.count = this.count + 1
+    },
+    subtractFromCount() {
+      this.count = this.count - 1
+    }
+  }
+})
+</script>
 
 
 <template>
